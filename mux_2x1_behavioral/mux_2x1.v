@@ -3,7 +3,7 @@ module mux_2(i0,i1,sel,y);
   input sel;
   output reg y;
   
-  always@(i0 or i1) begin
+  always@(i0 or i1) begin   //y= s0? i0 : i1;
     if (sel==1) begin
       y=i1;
     end
