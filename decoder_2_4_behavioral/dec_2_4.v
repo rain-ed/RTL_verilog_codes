@@ -14,6 +14,6 @@ module decoder_2_4( a, en, y);
       endcase
     end
   else begin
-    y=4'bxxxx;
+    y=4'b0000;
   end
 endmodule
